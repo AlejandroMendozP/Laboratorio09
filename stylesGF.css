@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+header, nav, footer, aside, main, article{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header, footer{
+    background-color: antiquewhite;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+nav {
+    background: #e6ecf3;
+}
+
+main {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+
+article {
+    flex: 3;
+    background: #fff;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+}
