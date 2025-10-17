@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.contenido {
+  background-color: azure;
+  padding: 20px;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tarjeta {
+  flex: 1 1 calc(25% - 25px);
+  background-color: cadetblue;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.tarjeta-grande {
+  flex: 1 1 calc(75% - 20px);
+  background-color: cadetblue;
+}
